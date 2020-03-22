@@ -5,7 +5,7 @@ using namespace std;
 int production(int num1, int num2);
 
 int main() {
-	int a = 0, b = 0;
+	int a, b;
 	cout << "please input two number:" << endl;
 	cin >> a >> b ;
 	cout << "the result of two number is:" << production(a, b) << endl;
